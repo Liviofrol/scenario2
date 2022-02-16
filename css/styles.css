@@ -1,0 +1,44 @@
+.page-header{
+    padding: 20px;
+    display: flex;
+    position: fixed;
+    color: white;
+    z-index: 10;
+    justify-content: space-between;
+    width: 100%;
+    background: black;
+}
+
+.page-header__nav{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.jumbo-slider{
+    height: 100vh;
+    width: 100%;
+    background: #1b1b1b; 
+}
+
+.jumbo-slider__container{
+    position: relative;
+}
+
+.jumbo-slider__nav{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    right: 0px;
+    writing-mode: vertical-rl;
+    z-index: 4;
+    width: 100%;
+}
+
+.jumbo-slider__link{
+    font-size: 1.4rem;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    text-decoration: none;
+}
